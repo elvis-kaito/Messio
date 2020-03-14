@@ -5,6 +5,8 @@ import 'package:messio/config/Palette.dart';
 class ChatAppBar extends StatelessWidget implements PreferredSizeWidget {
   final double height = 80;
 
+  const ChatAppBar();
+
   @override
   Size get preferredSize => Size.fromHeight(height);
 

@@ -5,6 +5,7 @@ import 'ConversationPage.dart';
 class ConversationPageList extends StatefulWidget {
   @override
   _ConversationPageList createState() => _ConversationPageList();
+  const ConversationPageList();
 }
 
 class _ConversationPageList extends State<ConversationPageList> {
