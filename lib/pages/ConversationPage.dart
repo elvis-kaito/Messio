@@ -9,20 +9,21 @@ class ConversationPage extends StatefulWidget {
 }
 
 class _ConversationPageState extends State<ConversationPage> {
-
   @override
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
         appBar: ChatAppBar(), // custom app bar for chat screen
-        body: Stack(children: <Widget>[
-          Column(
-            children: <Widget>[
-              ChatListWidget(), // chat list
-              InputWidget() // input widget
-            ],
-          )
-        ],),
+        body: Stack(
+          children: <Widget>[
+            Column(
+              children: <Widget>[
+                ChatListWidget(), // chat list
+                InputWidget() // input widget
+              ],
+            )
+          ],
+        ),
       ),
     );
   }
